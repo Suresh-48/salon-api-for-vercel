@@ -1,6 +1,12 @@
 {
   "name": "salon-api",
   "version": "1.0.0",
+  "builds": [
+    {
+      "src": "index.js", 
+      "use": "@vercel/node"
+    }
+  ],
   "type": "module",
   "description": "Aviar Technology Services",
   "main": "index.js",
