@@ -3,16 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Aviar Technology Services",
-  "main": "index.js",
-  "builds": [
-    { "src": "index.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.js" }
-  ],
+  "main": "server.js",
   "scripts": {
-    "debug": "ndb index.js",
-    "start": "nodemon —exec babel-node index.js --es-module-specifier-resolution=node"
+    "debug": "ndb server.js",
+    "start": "nodemon —exec babel-node server.js --es-module-specifier-resolution=node"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.238.0",
