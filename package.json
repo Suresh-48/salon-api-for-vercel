@@ -2,7 +2,7 @@
   "name": "salon-api",
   "version": "1.0.0",
   "type": "module",
-  "description": "Aviar Technology Services",
+  "description": "Aviar Technology Service",
   "main": "server.js",
   "scripts": {
     "debug": "ndb server.js",
