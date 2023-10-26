@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Aviar Technology Services",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "debug": "ndb server.js",
     "start": "nodemon —exec babel-node server.js --es-module-specifier-resolution=node"
