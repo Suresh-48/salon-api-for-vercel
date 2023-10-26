@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aviartechnologyservices",
+  "private_key_id": "f4bc0704b8fe85b02fd93b289413ff95f94b71c6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGLj20nA8KSQK3\n5IAk6dihOHj7ev2gZuq71O6zJqVOlB9ySfH8nhx1FzEsNFqejATv/sjvDM2pM7Cm\nNz6Tt8JPh5ZEavvASXELa/enmEXy9ovcKAaEgByvMCffbbwQjfVD0llunXPqBBnL\nlXpjjgs2ypTJqH+7YnNjPbBhFOulEwLzhk9ozC2BFda9Dy+nKDPsubJkPWx1d38v\n2037KjO/ZGWH3R2SXhvl6ulvnTAD9xEUAFcfgJmBPT909RMDb7bsAATnGadbvZKv\n+DNRpzVTkur/d1An1btbBmf2pIrWHm4nNjnzv9k6CdDyi6FqGXSfVuEgmL+2Gf9C\nJH8zYghfAgMBAAECggEAA46LVInafK2yodz+EuuHOJTzGcV9rWPNwbNlR1TYlj4X\nmz+TNsEaRcpIIADnryrql3vNOB7UxvP+LyM5HcrfJbD5D4O4UNRgmqio6CPD2Z9A\nKBADjVw7jCGnxGaUtpHrYgsD7ONgZkW8bRF1OMwMenmfTUgXZsjEfBr8i1TvSgqg\nklxfZjJkxFWeVzUjUumNwSmy0UP3gLUQsq01fLvHxsi/D6nWB4FELtMu3fnJOuMX\nglr3YOEvB8fvmVUPFoO3+nhQJHJCG54fO5IkB5dArQmo3fVy5+h4Hg6MpQ81wQV4\nKxGPDI4HK+bD7KqaVzqlq84OxTDSLl3+O1hF4R/NIQKBgQDsD7B+XgmBSfzMnsGW\nWPpID34DK537XgB4+fRPGrbVycApsO7askyKa2RsYPz9cKDcpYjk6aqpubDSa49p\n2Gyzxm1OWMkdaIyg2qb1NzFUPlcGpvpqf14Pqmo6BdiUEGEG4rm1nXQ9xYiIsfvC\nv5N2xZ+0TDDBPDC5/TDYShnbYQKBgQDW63cJZcg7CRsZo+mFVUOWa+lHMYyyYQvK\nla/9Cg5sT2qHVhMgRdkETIGsjCTXCFxqL7Yzu30f/v5n8Px6DAIMyoB/4rCuOxbU\nFRmcnupLK2RdMSI+zN9zq80TPVTXtRKCR1QeJHfpU3eqeQEjXtTVMSD/YW/7S3+0\noZs5CYg7vwKBgQDC7yXZBICm4lk/A+5q4Gk1ro1pws//7p1HSWmlFTNckfD8vJ5R\nvKEWQR65nNHt298Ktiu4lPkYlT3eVXIlftItFrPW2dyiS16tykHLB1vV7HDjDmqG\nHU2odBqqdX9mraviCsI+ppqCFCfuccOsC5WTpBiAw9YTDEhUni+CvJZjoQKBgH1X\nM8QSTRVI+ToZ4x30nQdEBfeUSTba7DKI2+taCxFVu44UP/FJawhbyiCkVvPll2gC\nTWOcS5v2bc6Wt9hB2ow1KX3r6hiis2yapaY28/NE6jKDbjJr70GZh29aDHoEyzeZ\ne9BcemZkXFzaVzSWoM946IKoA9PtsxvYSBuamI4nAoGAMdG0vhUfJ1WWvkLpCHMb\nzIYyT8RnL0eAE9f+gS89fIOgR29h8INZUUrxxumz9DVUDWR7PiBvpvbu7kgGwMMl\n9+UOmT4ZvcWkEx/lOHZ9+AVkPZrPQ8sn4+XpZ1LVqbtknJjVanZU9q6OyLqexbSF\nhcSGczrjE0C6EOCfXG8GTXQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kharpi-image-upload@aviartechnologyservices.iam.gserviceaccount.com",
+  "client_id": "104558083932183705432",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kharpi-image-upload%40aviartechnologyservices.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

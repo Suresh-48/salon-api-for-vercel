@@ -1,0 +1,131 @@
+service: Salon-App #Name of your App
+
+provider:
+ name: aws
+ runtime: nodejs16.x # Node JS version
+ memorySize: 512
+ timeout: 15
+ stage: salonDev
+ region: ap-south-1 # AWS region
+
+
+functions:
+ ssmFunction:
+   handler: handler.salonDev
+   events:
+     - http: ANY /
+
+     - http: 
+          path: / 
+          method: ANY 
+    # user routes
+     - http:
+          path: /api/v1/user/
+          method: post
+     - http:
+          path: /api/v1/user/
+          method: get
+     - http:
+          path: /api/v1/user/{id}
+          method: patch
+     - http:
+          path: /api/v1/user/{id}
+          method: get
+     - http:
+          path: /api/v1/user/{id}
+          method: delete
+     - http:
+          path: /api/v1/user/login
+          method: post
+     - http:
+          path: /api/v1/user//otp/verify/{id}
+          method: get
+
+# product  routes
+     - http:
+          path: /api/v1/product/
+          method: post
+     - http:
+          path: /api/v1/product/
+          method: get
+     - http:
+          path: /api/v1/product/{id}
+          method: patch
+     - http:
+          path: /api/v1/product/{id}
+          method: get
+     - http:
+          path: /api/v1/product/{id}
+          method: delete
+     - http:
+          path: /api/v1/product/types/{id}
+          method: get
+     - http: 
+          path: /api/v1/product/update/offer/{id}
+          method: patch
+     
+    # category routes
+     - http:
+          path: /api/v1/category/
+          method: post
+     - http:
+          path: /api/v1/category
+          method: get
+     - http:
+          path: /api/v1/category/{id}
+          method: patch
+     - http:
+          path: /api/v1/category/{id}
+          method: delete
+     - http:
+          path: /api/v1/category/{id}
+          method: get
+    # appointment routes
+
+     - http:
+          path: /api/v1/appointment/create
+          method: post
+     - http:
+          path: /api/v1/appointment/get/myBooking
+          method: get
+     - http:
+          path: /api/v1/appointment/get/admin/booking
+          method: get
+     - http:
+          path: /api/v1/appointment/check
+          method: get
+     - http:
+          path: /api/v1/appointment/date/filter
+          method: get
+     - http:
+          path: /api/v1/appointment/userId/{id}
+          method: get
+     - http:
+          path: /api/v1/appointment/filter/user/{id}
+          method: get
+
+  # employee attachment routes
+
+     - http:
+          path: /api/v1/offers/
+          method: post
+     - http:
+          path: /api/v1/offers/
+          method: get
+     - http:
+          path: /api/v1/offers/{id}
+          method: patch
+     - http:
+          path: /api/v1/offers/{id}
+          method: get
+     - http:
+          path: /api/v1/offers/{id}
+          method: delete
+     - http:
+          path: /api/v1/offers/product/list
+          method: get
+   environment:   
+     NODE_ENVIROMMENT: development
+     PORT: 5005
+     DATABASE: mongodb+srv://aviar:aviarDB123@cluster0.bu3xd.mongodb.net/Salon-Data-Testing
+     DATABASE_PASSWORD: aviarDB123
